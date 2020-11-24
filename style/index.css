@@ -1,16 +1,52 @@
 body {
   max-width: 100%;
+  margin: 0%;
+  background-color: whitesmoke;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: wrap;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 20vh;
+  justify-content: space-between;
+  padding: 0%;
+  background-color: #78a41f66;
+}
+
+.image-container img {
+  width: 50%;
+  height: 18vh;
+}
+
+.navigation {
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 10vh;
+  margin-top: 2%;
+}
+.items {
+  display: inline;
+  margin-right: 5%;
+}
+.items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
 
 #root {
-  height: 20vh;
+  height: 30vh;
   width: 100%;
-  background-color: violet;
+  /* border: 2px solid red; */
+  margin-top: 20vh;
+  /* background-color: violet; */
 }
 
 #watch-display {
   font-size: 20vh;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -24,10 +60,13 @@ body {
   align-content: center;
   font-weight: bolder;
   background-color: #0078d733;
+  border: none;
 }
 
 #startstop:hover {
   background-color: blue;
+  color: white;
+  border: none;
 }
 
 #reset {
@@ -36,8 +75,27 @@ body {
   margin-left: 1%;
   font-weight: bolder;
   background-color: #0078d733;
+  border: none;
 }
 
 #reset:hover {
   background-color: blue;
+  color: white;
+  border: none;
+}
+
+.footer {
+  background-color: #78a41f66;
+  height: 20vh;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.footer-icon i {
+  padding-top: 2%;
+  margin-left: 4%;
+}
+
+.footer-copyrights {
+  margin-top: 7vh;
 }
