@@ -11,16 +11,18 @@ Built With  **Vanilla JavaScript.**
  - CSS
 
 
-## Work 
 
-Useful for **time managing.**
+
+
 
 ## Usage
 
+Useful for **time managing.**
 
 
 
 ## Files
+
  - [index.html](https://github.com/umeshmore45/Timer-Application/blob/master/index.html)
  - [index.css](https://github.com/umeshmore45/Timer-Application/blob/umeshmore45-img/style/index.css)
  - [02- stop.js](https://github.com/umeshmore45/Timer-Application/blob/master/src/02-stop.js)
