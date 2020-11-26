@@ -99,3 +99,26 @@ body {
 .footer-copyrights {
   margin-top: 7vh;
 }
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    flex-flow: column;
+    height: 45vh;
+    justify-content: center;
+  }
+  .image-container img {
+    width: 30%;
+  }
+  #startstop {
+    width: 12%;
+    padding: 1%;
+  }
+  #reset {
+    width: 12%;
+    padding: 1%;
+  }
+
+  #watch-display {
+    font-size: 12vh;
+  }
+}

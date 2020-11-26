@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Stopwatch" />
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./style/index.css" />
     <script
@@ -12,6 +13,11 @@
     <title>Stop Watch</title>
   </head>
   <body>
+    <audio
+      id="audio"
+      src="http://www.soundjay.com/button/beep-07.wav"
+      autoplay="false"
+    ></audio>
     <header>
       <div class="header-container">
         <div class="image-container">
@@ -49,4 +55,5 @@
     </footer>
   </body>
   <script src="./src/02-stop.js"></script>
+  <script src="./src/playSound.js"></script>
 </html>

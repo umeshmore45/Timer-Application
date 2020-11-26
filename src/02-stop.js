@@ -51,10 +51,12 @@ const startStop = () => {
     interval = window.setInterval(stopWatch, 1000);
     document.getElementById("startstop").innerHTML = "Stop";
     status = "start";
+    playSound();
   } else {
     window.clearInterval(interval);
     document.getElementById("startstop").innerHTML = "Start";
     status = "stop";
+    playSound();
   }
 };
 
@@ -66,4 +68,5 @@ const rest = () => {
   document.getElementById("startstop").innerHTML = "Start";
   document.getElementById("watch-display").innerHTML = `00:00:00`;
   status = "stop";
+  playSound();
 };
