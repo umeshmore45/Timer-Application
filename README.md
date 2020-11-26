@@ -20,7 +20,6 @@ Built With  **Vanilla JavaScript.**
 Useful for **time managing.**
 
 
-
 ## Files
 
  - [index.html](https://github.com/umeshmore45/Timer-Application/blob/master/index.html)
@@ -34,4 +33,6 @@ Useful for **time managing.**
 
 [Demo](https://umeshmore45.github.io/Timer-Application/index.html)
 
+## Contact Me
+[Twitter](https://twitter.com/Iamdvirus45)
 
