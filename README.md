@@ -1,6 +1,6 @@
 ## Timer-Application
 **Stop-Watch**
-![alt text]()
+![alt text](https://raw.githubusercontent.com/umeshmore45/Timer-Application/master/img/logo.png)
 
 
 Built With  **Vanilla JavaScript** features to implement timer.
