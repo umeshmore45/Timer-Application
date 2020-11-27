@@ -216,4 +216,7 @@ body {
   #watch-display {
     font-size: 12vh;
   }
+  .footer {
+    margin-top: 30%;
+  }
 }
